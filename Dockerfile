@@ -1,2 +1,2 @@
 FROM nodered/node-red
-RUN apk --update add --no-cache --virtual rclone
+RUN sudo apk --update add --no-cache --virtual rclone
